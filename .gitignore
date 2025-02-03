@@ -1,33 +1,244 @@
-# Gradle files
-.gradle/
-build/
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مرحبا بكم العلاج الطبيعي دون أدوية</title>
+    <style>
+        /* إعدادات عامة */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-# Local configuration file (sdk path, etc)
-local.properties
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #e9f7f2;
+            color: #333;
+            line-height: 1.6;
+            padding: 0;
+        }
 
-# Log/OS Files
-*.log
+        header {
+            background-color: #00796b;
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
+        header h1 {
+            font-size: 38px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+        section {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
 
-# Keystore files
-*.jks
-*.keystore
+        h2 {
+            font-size: 28px;
+            color: #00796b;
+            margin-bottom: 20px;
+            text-align: center;
+            border-bottom: 2px solid #00796b;
+            padding-bottom: 10px;
+        }
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+        .treatment {
+            background-color: #f1f1f1;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
 
-# Android Profiling
-*.hprof
+        .treatment:hover {
+            transform: scale(1.03);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .treatment h3 {
+            color: #00796b;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .treatment p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        button {
+            background-color: #00796b;
+            color: #fff;
+            font-size: 18px;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #004d40;
+            transform: scale(1.05);
+        }
+
+        .contact {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .contact a {
+            display: inline-block;
+            background-color: #00796b;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact a:hover {
+            background-color: #004d40;
+        }
+
+        footer {
+            background-color: #00796b;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+
+        .contact-info {
+            font-size: 20px;
+            margin-top: 20px;
+            color: #00796b;
+        }
+
+        .contact-info strong {
+            color: #004d40;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>مرحبا بكم العلاج الطبيعي دون أدوية</h1>
+    <p>+للإستفسار: 212640178080</p>
+</header>
+
+<section>
+    <h2>علاج الروماتيزم</h2>
+    <div class="treatment">
+        <h3>1. التمارين والعلاج الطبيعي</h3>
+        <p>تمارين العلاج الطبيعي تساعد في تقوية العضلات وتحسين مرونة المفاصل، مما يقلل من الألم ويحسن حركة الجسم.</p>
+    </div>
+
+    <div class="treatment">
+        <h3>2. تدفئة المفاصل</h3>
+        <p>استخدام الكمادات الدافئة أو حمامات المياه الدافئة يساهم في تقليل الألم والتورم.</p>
+    </div>
+
+    <div class="treatment">
+        <h3>3. النظام الغذائي الصحي</h3>
+        <p>تناول الأغذية التي تحتوي على أحماض دهنية أوميغا-3 مثل الأسماك والزيوت النباتية، يمكن أن يقلل من الالتهابات ويحسن من صحة المفاصل.</p>
+    </div>
+
+    <h2>علاج البرد</h2>
+    <div class="treatment">
+        <h3>1. الراحة والنوم الكافي</h3>
+        <p>الراحة الكافية والنوم الجيد يساعدان الجسم على محاربة الفيروسات والتعافي بسرعة أكبر.</p>
+    </div>
+
+    <div class="treatment">
+        <h3>2. شرب السوائل الدافئة</h3>
+        <p>شرب الشاي أو الحساء الدافئ يساعد في تهدئة الحلق وتحسين التنفس.</p>
+    </div>
+
+    <div class="treatment">
+        <h3>3. استنشاق البخار</h3>
+        <p>استنشاق بخار الماء الدافئ يساهم في تخفيف الاحتقان وتحسين التنفس.</p>
+    </div>
+
+    <h2>علاج البوصفير</h2>
+    <div class="treatment">
+        <h3>1. شرب الماء بكثرة</h3>
+        <p>الماء يساعد الجسم على التخلص من السموم ويحسن من وظائف الكبد.</p>
+    </div>
+
+    <div class="treatment">
+        <h3>2. اتباع نظام غذائي متوازن</h3>
+        <p>تناول الأطعمة الغنية بالفيتامينات والمعادن مثل الفواكه والخضروات يعزز من صحة الكبد.</p>
+    </div>
+
+    <div class="treatment">
+        <h3>3. الراحة وتجنب الإجهاد</h3>
+        <p>الراحة وتجنب الإجهاد يساعد في تقليل العبء على الكبد ويساعد في تعافي الجسم.</p>
+    </div>
+
+    <button onclick="alert('تأكد دائمًا من استشارة الطبيب قبل البدء بأي علاج!')">عرض نصيحة إضافية</button>
+</section>
+
+<div class="contact">
+    <h2>للتواصل والاستفسارات</h2>
+    <p>لأي استفسار أو علاج مباشر، يمكنك الاتصال بنا عبر الرقم التالي:</p>
+    <div class="contact-info">
+        <p>للتواصل عبر واتساب: <a href="https://wa.me/212640178080" target="_blank">اضغط هنا</a></p>
+        <p>أو اتصل مباشرة على: <strong>00327463327463212640178080</strong></p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 دليل العلاج من الأمراض. جميع الحقوق محفوظة. تصميم من قبل Lyazami BNS</p>
+</footer>
+
+<script>
+    // يمكنك إضافة أي وظائف JavaScript هنا إذا أردت
+</script>
+
+</body>
+</html><style>body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00796b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* المزيد من التنسيقات */</style><script><script>
+    function showTip() {
+        alert('تأكد دائمًا من استشارة الطبيب قبل البدء بأي علاج!');
+    }
+</script></script>
